@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px;
+  background-color: #2E3A46;
+}
+
+.logo img {
+  height: 70px;
+  border-radius: 40px;
+}
+
+main {
+  background-color: #1E2D3B;
+}
+
+.container {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album {
+  background-color: #2E3A46;
+  width: 240px;
+  height: 380px;
+  text-align: center;
+  margin: 0.5rem;
+  padding: 10px;
+}
+.album > img {
+  height: 200px;
+  width: 200px;
+}
+.album > h3 {
+  margin: 15px 35px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.album > p {
+  color: #6B8080;
+}
